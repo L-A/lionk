@@ -14,3 +14,10 @@ capybara-*.html
 **.orig
 rerun.txt
 pickle-email-*.html
+public/.DS_Store
+
+public/css/.DS_Store
+
+public/images/.DS_Store
+
+.DS_Store
