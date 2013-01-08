@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Visitor TT1 BRK';
+    src: url('/fonts/visitor1-webfont.eot');
+    src: url('/fonts/visitor1-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/visitor1-webfont.woff') format('woff'),
+         url('/fonts/visitor1-webfont.ttf') format('truetype'),
+         url('/fonts/visitor1-webfont.svg#visitor_tt1_brkregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+html { 
+	background: url("/images/background.gif") no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+body{
+	height:100%;
+	padding:80px 10px;
+}
+
+#teaser-box{
+	top: 50%;
+	left:50%;
+
+
+	color: #FFF;
+	font-family: 'Visitor TT1 BRK', Helvetica, sans-serif;
+	font-size: 24px;
+	height: 220px;
+	width:100%;
+	margin:auto;
+	max-width:460px;
+	text-align: center;
+}
+
+img{
+	width:100%;
+	height:auto;
+	max-width:420px;
+}
